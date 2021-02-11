@@ -64,7 +64,7 @@ body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adz
   display: flex;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller {
-  min-width: 690px;
+  min-width: 768px;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h1 + p,
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h2 + p {
@@ -85,9 +85,16 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-artic
   display: block;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .container-adzone {
-  float: none;
-  width: 100%;
-  margin: 20px 0;
+  margin: 20px 0 !important;
+}
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .adtype-tagbox,
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .adtype-tematic {
+  max-width: 100%;
+  margin: 0;
+}
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .list-view {
+  max-width: 100%;
+  margin: 0;
 }
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .block-title,
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .block-title {
