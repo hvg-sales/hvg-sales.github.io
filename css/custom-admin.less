@@ -77,8 +77,23 @@ body {
         }
 
         &.hvg-mobile-admin-page-layout {
+            &.adzones {
+                .hvg {
+                    .scroller {
+                        .lead-article {
+                            display: flex;
+                            margin: 20px 0;
+                            max-width: 100%;
+                        }
+                        .container-adzone {
+                            display: flex;
+                        }
+                    }
+                }
+            }
             .hvg {
                 .scroller {
+                    min-width: 690px;
                     .lead-article {
                         h1+p, h2+p {
                             display: none;
@@ -143,6 +158,12 @@ body {
                             &:after {
                                 width: 68px;
                             }
+                        }
+                    }
+                    .lead-article {
+                        max-width: 100%;
+                        .text-holder {
+                            height: auto;
                         }
                     }
                     .grid-view-latest-news-list {
