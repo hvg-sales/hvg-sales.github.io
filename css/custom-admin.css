@@ -66,6 +66,9 @@ body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adz
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller {
   min-width: 768px;
 }
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .wrap {
+  padding-top: 0;
+}
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(1, transparent));
 }
