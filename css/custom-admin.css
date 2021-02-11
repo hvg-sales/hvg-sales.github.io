@@ -66,9 +66,25 @@ body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adz
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller {
   min-width: 768px;
 }
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(1, transparent));
+}
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .text {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .info {
+  color: #fff;
+  padding: 0 0 10px 0;
+}
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article a {
+  color: #fff;
+}
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h1 + p,
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h2 + p {
-  display: none;
+  color: #fff;
+  margin-bottom: 0;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .row {
   display: flex;
