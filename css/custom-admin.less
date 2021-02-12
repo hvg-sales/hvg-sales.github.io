@@ -5,18 +5,25 @@ body {
         background-color: #f1f1f1;
         > .container {
             margin: 0;
+            > h1, > .h1 {
+                font-size: 32px;
+            }
             > h1 {
                 max-width: 1220px;
                 margin: 0 auto;
                 background: #fff;
                 padding: 20px 20px 10px;
+
                 + i {
                     max-width: 1220px;
                     margin: 0 auto;
                     background: #fff;
-                    padding: 10px 20px;
+                    padding: 0 20px;
                     width: 100%;
                     display: block;
+                    &:empty {
+                        display: none;
+                    }
                 }
                 @media (max-width: 1500px) {
                     margin: 0;
@@ -43,7 +50,7 @@ body {
                     display: flex;
                     justify-content: space-between;
                     background: #fff;
-                    margin: 0 auto;
+                    margin: 20px auto 10px;
                     .article-box-widget {
                         width: auto;
                         margin: 0 10px;
@@ -59,6 +66,16 @@ body {
                         .wrapper {
                             a:hover, a:focus {
                                 color: inherit;
+                            }
+                            .selectAdv .container-adzone {
+                                max-width: 1180px !important;
+                                margin-bottom: 10px !important;
+                            }
+                            .container-adzone {
+                                &.ad-below-header, &.ad-above-header {
+                                    max-width: 1180px !important;
+                                    margin: 10px auto !important;
+                                }
                             }
                             .site-header-main .logo-holder .logo {
                                 background: transparent url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;

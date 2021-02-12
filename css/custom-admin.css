@@ -8,6 +8,10 @@ body.cmsadmin {
 body.cmsadmin > .container {
   margin: 0;
 }
+body.cmsadmin > .container > h1,
+body.cmsadmin > .container > .h1 {
+  font-size: 32px;
+}
 body.cmsadmin > .container > h1 {
   max-width: 1220px;
   margin: 0 auto;
@@ -18,9 +22,12 @@ body.cmsadmin > .container > h1 + i {
   max-width: 1220px;
   margin: 0 auto;
   background: #fff;
-  padding: 10px 20px;
+  padding: 0 20px;
   width: 100%;
   display: block;
+}
+body.cmsadmin > .container > h1 + i:empty {
+  display: none;
 }
 @media (max-width: 1500px) {
   body.cmsadmin > .container > h1 {
@@ -49,7 +56,7 @@ body.cmsadmin .hvg .body .random-article-box-container {
   display: flex;
   justify-content: space-between;
   background: #fff;
-  margin: 0 auto;
+  margin: 20px auto 10px;
 }
 body.cmsadmin .hvg .body .random-article-box-container .article-box-widget {
   width: auto;
@@ -62,6 +69,15 @@ body.cmsadmin .hvg .body div[data-bind*="with"] {
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:hover,
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:focus {
   color: inherit;
+}
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .selectAdv .container-adzone {
+  max-width: 1180px !important;
+  margin-bottom: 10px !important;
+}
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-below-header,
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-above-header {
+  max-width: 1180px !important;
+  margin: 10px auto !important;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo {
   background: transparent url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
