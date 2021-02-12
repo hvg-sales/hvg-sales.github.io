@@ -223,8 +223,9 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .row {
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article {
   width: 33.3333%;
+  border: 0;
 }
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .container-adzone {
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article.container-adzone {
   width: 100%;
   margin: 10px 0 !important;
 }
