@@ -8,6 +8,28 @@ body.cmsadmin {
 body.cmsadmin > .container {
   margin: 0;
 }
+body.cmsadmin > .container > h1 {
+  max-width: 1220px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 20px 10px;
+}
+body.cmsadmin > .container > h1 + i {
+  max-width: 1220px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  display: block;
+}
+@media (max-width: 1500px) {
+  body.cmsadmin > .container > h1 {
+    margin: 0;
+  }
+  body.cmsadmin > .container > h1 + i {
+    margin: 0;
+  }
+}
 body.cmsadmin textarea.form-control {
   min-width: 100%;
 }
@@ -15,7 +37,7 @@ body.cmsadmin .hvg .body {
   width: 1220px;
   margin: 0 auto;
   background: #fff;
-  padding-top: 55px;
+  padding-top: 10px;
 }
 @media (max-width: 1500px) {
   body.cmsadmin .hvg .body {
