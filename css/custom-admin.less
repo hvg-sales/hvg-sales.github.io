@@ -2,8 +2,27 @@
 body {
     &.cmsadmin {
         /* desktop admin */
+        background-color: #f1f1f1;
         .hvg {
             .body {
+                width: 1220px;
+                margin: 0 auto;
+                background: #fff;
+                @media (max-width: 1500px) {
+                    margin: 0;
+                }
+                .random-article-box-container {
+                    width: 1200px;
+                    display: flex;
+                    justify-content: space-between;
+                    background: #fff;
+                    margin: 0 auto;
+                    .article-box-widget {
+                        width: auto;
+                        margin: 0 10px;
+                    }
+                }
+                
                 .perspective-wrapper {
                     .container {
                         .wrapper {

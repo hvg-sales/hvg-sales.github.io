@@ -1,8 +1,30 @@
 /* cms admin custom css */
 body.cmsadmin {
   /* desktop admin */
+  background-color: #f1f1f1;
   /* mobil admin */
   /*end mobile admins*/
+}
+body.cmsadmin .hvg .body {
+  width: 1220px;
+  margin: 0 auto;
+  background: #fff;
+}
+@media (max-width: 1500px) {
+  body.cmsadmin .hvg .body {
+    margin: 0;
+  }
+}
+body.cmsadmin .hvg .body .random-article-box-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin: 0 auto;
+}
+body.cmsadmin .hvg .body .random-article-box-container .article-box-widget {
+  width: auto;
+  margin: 0 10px;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper div[data-bind*="with"] {
   max-width: 1180px;
