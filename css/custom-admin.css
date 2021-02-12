@@ -22,7 +22,7 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanla
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid {
   display: flex;
   justify-content: space-between;
-  border: 0;
+  padding-bottom: 20px;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid .elem-380 {
   width: 380px;
