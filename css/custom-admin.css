@@ -10,6 +10,12 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-konyva
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .h500 {
   min-height: unset;
 }
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-blog #blogCageLead .cimlap-big_square_article {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: #bbbfc0 url("https://static.hvgrt.hu/img/hvg-hu-logo.svg") center center no-repeat !important;
+}
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
   max-width: 100%;
