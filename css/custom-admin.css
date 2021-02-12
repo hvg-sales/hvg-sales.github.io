@@ -241,8 +241,8 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body .container-adzone {
   width: 100%;
   margin: 20px 0 !important;
 }
-body.cmsadmin.hvg-mobile-admin-ad .hvg div[data-bind*="with"],
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg div[data-bind*="with"] {
+body.cmsadmin.hvg-mobile-admin-ad .hvg .body div[data-bind*="with"],
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body div[data-bind*="with"] {
   max-width: 768px;
   margin: 10px 0;
 }
