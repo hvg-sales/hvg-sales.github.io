@@ -7,6 +7,10 @@ body {
                 .perspective-wrapper {
                     .container {
                         .wrapper {
+                            div[data-bind*="with"] {
+                                max-width: 1180px;
+                                margin: 10px auto;
+                            }
                             a:hover, a:focus {
                                 color: inherit;
                             }
@@ -52,12 +56,6 @@ body {
                             }
                             .articlebox .articleitem.big-pictured-article {
                                 padding-bottom: 0;
-                            }
-                            .container-adzone {
-                                &.breaking-sponsor {
-                                    margin: 10px 0 0 20px!important;
-                                    max-width: 1180px !important;
-                                }
                             }
                         }
                     }
