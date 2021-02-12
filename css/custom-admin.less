@@ -248,6 +248,9 @@ body {
                             // &:only-child {
                             //     display: none;
                             // }
+                            .container-adzone {
+                                width: 100%;
+                            }
                             .text-holder {
                                 .info {
                                     display: flex;
@@ -271,6 +274,7 @@ body {
                     .container-adzone {
                         width: 100%;
                         margin: 20px 0 !important;
+                        max-width: 768px;
                     }
                 }
             }
@@ -278,8 +282,16 @@ body {
 
         &.hvg-mobile-admin-ad, 
         &.hvg-mobile-admin-page-layout {
+            background: #fff;
+            > .container {
+                > h1 {
+                    max-width: 100%;
+                    margin: 0;
+                }
+            }
             .hvg {
                 .body {
+                    width: 100%;
                     div[data-bind*="with"] {
                         max-width: 768px;
                         margin: 10px 0;

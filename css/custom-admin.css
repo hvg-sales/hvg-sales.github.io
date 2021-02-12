@@ -219,6 +219,9 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .row {
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article {
   width: 33.3333%;
 }
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .container-adzone {
+  width: 100%;
+}
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .text-holder .info {
   display: flex;
 }
@@ -237,6 +240,20 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .list-view {
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body .container-adzone {
   width: 100%;
   margin: 20px 0 !important;
+  max-width: 768px;
+}
+body.cmsadmin.hvg-mobile-admin-ad,
+body.cmsadmin.hvg-mobile-admin-page-layout {
+  background: #fff;
+}
+body.cmsadmin.hvg-mobile-admin-ad > .container > h1,
+body.cmsadmin.hvg-mobile-admin-page-layout > .container > h1 {
+  max-width: 100%;
+  margin: 0;
+}
+body.cmsadmin.hvg-mobile-admin-ad .hvg .body,
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body {
+  width: 100%;
 }
 body.cmsadmin.hvg-mobile-admin-ad .hvg .body div[data-bind*="with"],
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body div[data-bind*="with"] {
