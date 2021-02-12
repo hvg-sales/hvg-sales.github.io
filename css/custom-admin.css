@@ -10,7 +10,7 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-konyva
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .h500 {
   min-height: unset;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-blog #blogCageLead .cimlap-big_square_article {
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-blog #blogCageLead .cimlap-big_square_article a.img {
   background-size: cover;
   width: 100%;
   height: 100%;
