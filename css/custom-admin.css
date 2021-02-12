@@ -188,6 +188,11 @@ body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article 
 body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adzone {
   display: flex;
 }
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body .container-adzone {
+  width: 100%;
+  margin: 20px 0 !important;
+  max-width: 768px;
+}
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller {
   min-width: 768px;
 }
@@ -221,6 +226,7 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-artic
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .container-adzone {
   width: 100%;
+  margin: 10px 0 !important;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .text-holder .info {
   display: flex;
@@ -236,11 +242,6 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .adtype-tematic {
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .list-view {
   max-width: 100%;
   margin: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body .container-adzone {
-  width: 100%;
-  margin: 20px 0 !important;
-  max-width: 768px;
 }
 body.cmsadmin.hvg-mobile-admin-ad,
 body.cmsadmin.hvg-mobile-admin-page-layout {
