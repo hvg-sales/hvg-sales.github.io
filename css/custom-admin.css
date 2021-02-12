@@ -4,6 +4,10 @@ body.cmsadmin {
   /* mobil admin */
   /*end mobile admins*/
 }
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:hover,
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:focus {
+  color: inherit;
+}
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo {
   background: transparent url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
   width: 90px;
