@@ -16,6 +16,13 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-b
   height: 100%;
   background: #bbbfc0 url("https://static.hvgrt.hu/img/hvg-hu-logo.svg") center center no-repeat !important;
 }
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid {
+  display: flex;
+  justify-content: space-between;
+}
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid .elem-380 {
+  width: 380px;
+}
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
   max-width: 100%;
