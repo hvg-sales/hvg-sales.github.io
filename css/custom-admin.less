@@ -3,11 +3,15 @@ body {
     &.cmsadmin {
         /* desktop admin */
         background-color: #f1f1f1;
+        > .container {
+            margin: 0;
+        }
         .hvg {
             .body {
                 width: 1220px;
                 margin: 0 auto;
                 background: #fff;
+                padding-top: 55px;
                 @media (max-width: 1500px) {
                     margin: 0;
                 }
@@ -22,14 +26,14 @@ body {
                         margin: 0 10px;
                     }
                 }
+                div[data-bind*="with"] {
+                    max-width: 1180px;
+                    margin: 10px auto;
+                }
                 
                 .perspective-wrapper {
                     .container {
                         .wrapper {
-                            div[data-bind*="with"] {
-                                max-width: 1180px;
-                                margin: 10px auto;
-                            }
                             a:hover, a:focus {
                                 color: inherit;
                             }

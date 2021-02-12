@@ -5,10 +5,14 @@ body.cmsadmin {
   /* mobil admin */
   /*end mobile admins*/
 }
+body.cmsadmin > .container {
+  margin: 0;
+}
 body.cmsadmin .hvg .body {
   width: 1220px;
   margin: 0 auto;
   background: #fff;
+  padding-top: 55px;
 }
 @media (max-width: 1500px) {
   body.cmsadmin .hvg .body {
@@ -26,7 +30,7 @@ body.cmsadmin .hvg .body .random-article-box-container .article-box-widget {
   width: auto;
   margin: 0 10px;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper div[data-bind*="with"] {
+body.cmsadmin .hvg .body div[data-bind*="with"] {
   max-width: 1180px;
   margin: 10px auto;
 }
