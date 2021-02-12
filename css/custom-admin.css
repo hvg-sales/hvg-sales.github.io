@@ -305,6 +305,11 @@ body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-ar
   display: block;
   padding: 20px 0;
 }
+body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder,
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder {
+  min-height: 122px;
+  max-width: 216px;
+}
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info,
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info {
   display: flex;
