@@ -328,6 +328,11 @@ body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.ful
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder {
   min-height: 122px;
   max-width: 216px;
+  background: #bbbfc0 url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
+}
+body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img,
+body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img {
+  display: none;
 }
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info,
 body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info {
