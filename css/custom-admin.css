@@ -8,6 +8,9 @@ body.cmsadmin {
 body.cmsadmin > .container {
   margin: 0;
 }
+body.cmsadmin textarea.form-control {
+  min-width: 100%;
+}
 body.cmsadmin .hvg .body {
   width: 1220px;
   margin: 0 auto;
