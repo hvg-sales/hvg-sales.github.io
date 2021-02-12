@@ -186,7 +186,8 @@ body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article 
   width: 100%;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adzone {
-  display: flex;
+  display: inline-block;
+  margin: 10px 0 !important;
 }
 body.cmsadmin.hvg-mobile-admin-page-layout > .container > h1 {
   max-width: 768px;
