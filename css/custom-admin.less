@@ -152,9 +152,6 @@ body {
                         }
                         .grid-article {
                             width: 33.3333%;
-                            // &:only-child {
-                            //     display: none;
-                            // }
                             &.container-adzone {
                                 display: block;
                                 width: 100%;
@@ -213,16 +210,27 @@ body {
                     }
                 }
             }
+            > .container > h1 {
+                max-width: 768px;
+                margin: 0 auto;
+                padding-left: 0;
+            }
             .hvg {
                 .body {
                     .container-adzone {
                         width: 100%;
                         margin: 20px 0 !important;
                         max-width: 768px;
+                        // @media (min-width: 1200px) {
+                        //     margin: 20px auto !important;
+                        // }
                     }
                 }
                 .scroller {
                     min-width: 768px;
+                    // @media (min-width: 1200px) {
+                    //     margin: 0 auto;
+                    // }
                     .lead-article {
                         .text-holder {
                             background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#000),color-stop(1,transparent));
@@ -278,6 +286,24 @@ body {
                         max-width: 100%;
                         margin: 0;
                     }
+                    .grid-view-latest-news-list {
+                        margin-top: 60px;
+                        .list-article {
+                            .latest-list {
+                                padding: 20px;
+                                margin: 0;
+                                width: 100%;
+                                .info {
+                                    padding-left: 0;
+                                    padding-top: 22px;
+                                }
+                                .text-holder {
+                                    padding-left: 60px;
+                                    padding-right: 0;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -286,6 +312,11 @@ body {
         &.hvg-mobile-admin-page-layout {
             background: #fff;
             > .container {
+                @media (min-width: 1260px) {
+                    margin: 0 auto;
+                    width: 800px;
+                }
+                
                 > h1 {
                     max-width: 100%;
                     margin: 0;
@@ -294,6 +325,9 @@ body {
             .hvg {
                 .body {
                     width: 100%;
+                    // @media (min-width: 1320px) {
+                    //     margin: 0 auto;
+                    // }
                     div[data-bind*="with"] {
                         max-width: 768px;
                         margin: 10px 0;
