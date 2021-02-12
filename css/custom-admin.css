@@ -23,6 +23,7 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanla
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
+  width: 100%;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid .elem-380 {
   width: 380px;
@@ -32,7 +33,7 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .articlebox .a
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.breaking-sponsor {
   margin: 10px 0 0 20px!important;
-  max-width: 1180px;
+  max-width: 1180px !important;
 }
 body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view {
   margin: 0;
