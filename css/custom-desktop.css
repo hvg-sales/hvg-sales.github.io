@@ -36,7 +36,7 @@
   background: none;
 }
 body:not(.main-page) section.cimlap-dhvg {
-  display: none;
+  display: none !important;
 }
 body:not(.main-page) .container .column-articlelist .adsbygoogle ins[id*="aswift"] ins[id*="aswift"] iframe[id*="aswift"] {
   width: 720px !important;
