@@ -312,7 +312,7 @@ body.parallax-ad .parallax_bottom a {
   display: block;
 }
 body.parallax-ad .parallax_top a {
-  min-height: 240px;
+  min-height: 300px;
 }
 body.parallax-ad .parallax_bottom a {
   height: 480px;
