@@ -375,6 +375,7 @@ body.parallax-ad.article-page .article-content .parallax_top + .adcaption:before
 }
 body.parallax-ad.article-page .white__bg {
   padding: 0 20px;
+  margin: 0;
 }
 body.parallax-ad.column-page .parallax_bottom + .adcaption:before,
 body.parallax-ad.column-page .parallax_top + .adcaption:before {
@@ -423,9 +424,6 @@ body.parallax-ad .article-view-wrap .lead-article h1 {
 @media screen and (max-width: 767px) {
   body.parallax-ad .article-view {
     padding: 0;
-  }
-  body.parallax-ad .article-content {
-    margin: 0 auto;
   }
   body.parallax-ad.article-page .grid-view {
     background: #fff;
