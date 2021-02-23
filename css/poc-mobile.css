@@ -1,0 +1,151 @@
+/* POC MOBILE */
+.ad-poc {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 10px;
+  max-width: 690px;
+}
+@media screen and (min-width: 992px) {
+  .ad-poc {
+    max-width: 690px;
+  }
+}
+.ad-poc-content {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  padding-bottom: 95%;
+  height: 0;
+}
+.ad-poc-logo {
+  width: auto;
+  height: 50px;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+.ad-poc-logo img {
+  width: auto;
+  height: 60px;
+  display: block;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 480px) {
+  .ad-poc-logo img {
+    height: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ad-poc-logo {
+    margin-bottom: 10px;
+  }
+}
+.ad-poc-video {
+  width: 100%;
+  position: relative;
+  z-index: 4;
+  /* padding-bottom: 56.25%;*/
+  height: 0;
+  /*background-color: #6f6d6d;*/
+}
+.ad-poc-bg {
+  /* 768x768*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #f7f6f1;
+  z-index: 1;
+}
+a.ad-poc-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.ad-poc .caption {
+  margin-top: 0;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #888 !important;
+  display: block;
+  text-align: center;
+  margin: 5px 0 0;
+  text-transform: uppercase;
+}
+.ad-poc .caption:after {
+  content: "Hirdetés";
+}
+.jwplayer .jw-title-primary.jw-reset-text {
+  display: none;
+}
+.jwplayer {
+  margin-top: 0;
+}
+.jwplayer .jw-display {
+  display: none;
+}
+.jwplayer .jw-wrapper .jw-top .jw-text {
+  display: none;
+}
+.jwplayer .jw-controls .jw-display-controls .jw-display-icon-container .jw-icon svg {
+  display: none;
+}
+.jwplayer .jw-controls .jw-display-controls .jw-display-icon-container .jw-icon {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 2px solid #e25900;
+  border-radius: 50%;
+  color: #e25900 !important;
+  width: 40px;
+  height: 40px;
+  animation: fadein 1.5s;
+  will-change: transform;
+  transform: translateX(-50%) translateY(-50%);
+}
+.jwplayer .jw-controls .jw-display-controls .jw-display-icon-container .jw-icon:after {
+  content: '';
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid #e25900;
+  border-top: 8px solid transparent;
+  border-right: 0;
+  border-radius: 0;
+  height: 0;
+  width: 0;
+  margin: 0 0 0 2px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  transform: translateX(-50%) translateY(-50%);
+}
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next,
+.jw-related-shelf-container.jw-reset,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn {
+  display: none;
+}
