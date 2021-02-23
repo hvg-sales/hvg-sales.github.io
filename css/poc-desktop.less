@@ -1,0 +1,86 @@
+/* POC DESKTOP */
+.ad-poc {
+	width: 100%;
+    height: 686px;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.ad-poc-content {
+    position: relative;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.ad-poc-logo {
+    max-width: 280px;
+    max-height: 120px;
+	height:auto;
+    // background: #dedede;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.ad-poc-logo img {
+    max-width: 280px;
+    max-height: 120px;
+	height:auto;
+}
+.ad-poc-video {
+	width: 600px;
+    position: relative;
+    z-index: 4;
+}
+.ad-poc-bg { 
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: 1;
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #f7f6f1;
+}
+
+a.ad-poc-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.jwplayer {
+	margin-top: 0;
+}
+.jwplayer .jw-wrapper .jw-top .jw-text {
+	display: none;
+}
+.jwplayer .jw-title-primary.jw-reset-text {
+    display: none;
+}
+// .jw-controlbar {
+// display:none;
+// }
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind, 
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next,
+.jw-related-shelf-container.jw-reset {
+    display: none;
+}
+.ad-poc .caption {
+    margin-top: auto;
+    background: #fff;
+	line-height: 20px;
+}
