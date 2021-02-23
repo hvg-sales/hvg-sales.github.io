@@ -493,7 +493,8 @@ body.read-mode.parallax-ad .placeholder-ad,
 body.read-mode.parallax-ad .adcaption,
 body.read-mode.parallax-ad .footer,
 body.read-mode.parallax-ad .content,
-body.read-mode.parallax-ad .more-button {
+body.read-mode.parallax-ad .more-button,
+body.read-mode.parallax-ad .list-article {
   background-color: #1a1a1a;
 }
 body.read-mode.parallax-ad .wrap {
