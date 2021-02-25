@@ -1,6 +1,6 @@
 /* cms admin custom css */
 body {
-    &.cmsadmin {
+    &.cmsadmin:not(.hvg-360) {
         /* desktop admin */
         background-color: #f1f1f1;
         > .container {
@@ -165,35 +165,6 @@ body {
                         transform: translateY(-6px);
                         font-weight: normal;
                         font-family: 'PT sans';
-                    }
-                }
-            }
-        }
-
-        // hvg 360 admin
-        &.hvg-360 {
-            .hvg {
-                .body {
-                    .hvg360-pagelayout {
-                        .lead-article .text-holder {
-                            position: relative !important;
-                        }
-                        .jumbo-article-list-box .cut-corner-top-left:before,
-                        .green-article-list-box .green-box:before {
-                            display: none !important;
-                        }
-                        ol li, ul li {
-                            font-size: inherit;
-                            line-height: inherit;
-                        }
-                        .container-adzone {
-                            h4 {
-                                font-size: 18px;
-                                line-height: 1.1;
-                                letter-spacing: normal;
-                                width: auto;
-                            }
-                        }
                     }
                 }
             }
@@ -483,9 +454,42 @@ body {
             }
         }
         /*end mobile admins*/
-
     }
 }
+
+// hvg 360 admin
+body {
+    &.cmsadmin {
+        &.hvg-360 {
+            .hvg {
+                .body {
+                    .hvg360-pagelayout {
+                        .lead-article .text-holder {
+                            position: relative !important;
+                        }
+                        .jumbo-article-list-box .cut-corner-top-left:before,
+                        .green-article-list-box .green-box:before {
+                            display: none !important;
+                        }
+                        ol li, ul li {
+                            font-size: inherit;
+                            line-height: inherit;
+                        }
+                        .container-adzone {
+                            h4 {
+                                font-size: 18px;
+                                line-height: 1.1;
+                                letter-spacing: normal;
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* pt doboz admin */
 .hvg {
     .block-ms-box2 {

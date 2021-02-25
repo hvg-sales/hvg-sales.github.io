@@ -1,33 +1,33 @@
 /* cms admin custom css */
-body.cmsadmin {
+body.cmsadmin:not(.hvg-360) {
   /* desktop admin */
   background-color: #f1f1f1;
   /* mobil admin */
   /*end mobile admins*/
 }
-body.cmsadmin > .container {
+body.cmsadmin:not(.hvg-360) > .container {
   margin: 0;
 }
-body.cmsadmin > .container > .alert {
+body.cmsadmin:not(.hvg-360) > .container > .alert {
   max-width: 1220px;
   margin: 10px auto;
 }
 @media (max-width: 1500px) {
-  body.cmsadmin > .container > .alert {
+  body.cmsadmin:not(.hvg-360) > .container > .alert {
     margin: 10px 0;
   }
 }
-body.cmsadmin > .container > h1,
-body.cmsadmin > .container > .h1 {
+body.cmsadmin:not(.hvg-360) > .container > h1,
+body.cmsadmin:not(.hvg-360) > .container > .h1 {
   font-size: 32px;
 }
-body.cmsadmin > .container > h1 {
+body.cmsadmin:not(.hvg-360) > .container > h1 {
   max-width: 1220px;
   margin: 0 auto;
   background: #fff;
   padding: 20px 20px 10px;
 }
-body.cmsadmin > .container > h1 + i {
+body.cmsadmin:not(.hvg-360) > .container > h1 + i {
   max-width: 1220px;
   margin: 0 auto;
   background: #fff;
@@ -35,108 +35,108 @@ body.cmsadmin > .container > h1 + i {
   width: 100%;
   display: block;
 }
-body.cmsadmin > .container > h1 + i:empty {
+body.cmsadmin:not(.hvg-360) > .container > h1 + i:empty {
   display: none;
 }
 @media (max-width: 1500px) {
-  body.cmsadmin > .container > h1 {
+  body.cmsadmin:not(.hvg-360) > .container > h1 {
     margin: 0;
   }
-  body.cmsadmin > .container > h1 + i {
+  body.cmsadmin:not(.hvg-360) > .container > h1 + i {
     margin: 0;
   }
 }
-body.cmsadmin textarea.form-control {
+body.cmsadmin:not(.hvg-360) textarea.form-control {
   min-width: 100%;
 }
-body.cmsadmin .hvg .body {
+body.cmsadmin:not(.hvg-360) .hvg .body {
   width: 1220px;
   margin: 0 auto;
   background: #fff;
   padding-top: 10px;
 }
 @media (max-width: 1500px) {
-  body.cmsadmin .hvg .body {
+  body.cmsadmin:not(.hvg-360) .hvg .body {
     margin: 0;
   }
 }
-body.cmsadmin .hvg .body .random-article-box-container {
+body.cmsadmin:not(.hvg-360) .hvg .body .random-article-box-container {
   width: 1200px;
   display: flex;
   justify-content: space-between;
   background: #fff;
   margin: 20px auto 10px;
 }
-body.cmsadmin .hvg .body .random-article-box-container .article-box-widget {
+body.cmsadmin:not(.hvg-360) .hvg .body .random-article-box-container .article-box-widget {
   width: auto;
   margin: 0 10px;
 }
-body.cmsadmin .hvg .body div[data-bind*="with"] {
+body.cmsadmin:not(.hvg-360) .hvg .body div[data-bind*="with"] {
   max-width: 1180px;
   margin: 10px auto;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:hover,
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:focus {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper a:hover,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper a:focus {
   color: inherit;
   text-decoration: none;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .selectAdv .container-adzone {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .selectAdv .container-adzone {
   max-width: 1180px !important;
   margin: 20px auto 0;
   margin-bottom: 10px !important;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-below-header,
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-above-header {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-below-header,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-above-header {
   max-width: 1180px !important;
   margin: 10px auto !important;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-adtype-interstellar,
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-google-adsense-1 {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-adtype-interstellar,
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-google-adsense-1 {
   max-width: 1180px !important;
   margin: 20px auto;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-fpa-vop {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-fpa-vop {
   margin-left: 40px;
   max-width: 720px !important;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo {
   background: transparent url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
   width: 90px;
   height: 36px;
   background-size: 100%;
   margin-top: 3px;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo img {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo img {
   display: none;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-konyvajanlo .actions {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-konyvajanlo .actions {
   min-height: unset;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .h500 {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .h500 {
   min-height: unset;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-blog #blogCageLead .cimlap-big_square_article a.img {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-grid-blog #blogCageLead .cimlap-big_square_article a.img {
   background-size: cover;
   width: 100%;
   height: 100%;
   background: #bbbfc0 url("https://static.hvgrt.hu/img/hvg-hu-logo.svg") center center no-repeat !important;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat {
   width: 100%;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
   width: 100%;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid .elem-380 {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .cimlap-ajanlat .cimlap-grid .elem-380 {
   width: 380px;
 }
-body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .articlebox .articleitem.big-pictured-article {
+body.cmsadmin:not(.hvg-360) .hvg .body .perspective-wrapper .container .wrapper .articlebox .articleitem.big-pictured-article {
   padding-bottom: 0;
 }
-body.cmsadmin .hvg .body .blog-icon {
+body.cmsadmin:not(.hvg-360) .hvg .body .blog-icon {
   border-radius: 0;
   background: #e25900 !important;
   text-align: center;
@@ -149,7 +149,7 @@ body.cmsadmin .hvg .body .blog-icon {
   margin: 0 5px 0 0;
   transform: translateY(0);
 }
-body.cmsadmin .hvg .body .blog-icon:before {
+body.cmsadmin:not(.hvg-360) .hvg .body .blog-icon:before {
   content: 'BLOG';
   color: #fff;
   margin: 0;
@@ -160,6 +160,254 @@ body.cmsadmin .hvg .body .blog-icon:before {
   transform: translateY(-6px);
   font-weight: normal;
   font-family: 'PT sans';
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view {
+  margin: 0;
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view div[data-bind*="with"] {
+  width: 100%;
+  padding-left: 20px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article {
+  width: 33.3333%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article.container-adzone {
+  display: block;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article.home-video-article {
+  max-width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .list-view {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .lead-article {
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .lead-article .text-holder {
+  height: auto;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .article-view .article-content .content {
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .adtype-tagbox,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .adtype-tematic {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad textarea.form-control {
+  resize: both;
+  min-height: 150px;
+  min-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article {
+  display: flex;
+  margin: 20px 0;
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article .text-holder {
+  padding: 60px 30px 30px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article .text-holder .text {
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adzone {
+  display: inline-block;
+  margin: 5px 0 !important;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout > .container > h1 {
+  max-width: 768px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .body .container-adzone {
+  width: 100%;
+  margin: 20px 0 !important;
+  max-width: 768px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller {
+  min-width: 768px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(1, transparent));
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .text {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .info {
+  color: #fff;
+  padding: 0 0 10px 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article a {
+  color: #fff;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article h1 + p,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article h2 + p {
+  color: #fff;
+  margin-bottom: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article {
+  width: 33.3333%;
+  border: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article.container-adzone {
+  width: 100%;
+  margin: 10px 0 !important;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .text-holder .info {
+  display: flex;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article.full-image-article-box {
+  display: block;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .adtype-tagbox,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .adtype-tematic {
+  max-width: 100%;
+  margin: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .list-view {
+  max-width: 100%;
+  margin: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list {
+  margin-top: 60px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .info {
+  padding-left: 0;
+  padding-top: 22px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
+  padding-left: 60px;
+  padding-right: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout {
+  background: #fff;
+}
+@media (min-width: 1300px) {
+  body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad > .container,
+  body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout > .container {
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad > .container > h1,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout > .container > h1 {
+  max-width: 100%;
+  margin: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .body,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .body {
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .body div[data-bind*="with"],
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .body div[data-bind*="with"] {
+  max-width: 768px;
+  margin: 10px 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .wrap,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .wrap {
+  padding-top: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .block-title,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .block-title {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .block-title a,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .block-title a {
+  color: #fff;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .boxheader:not(.blog-header),
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .boxheader:not(.blog-header) {
+  margin: 0;
+  max-width: 100%;
+  padding: 10px 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header {
+  margin: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header:before,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header:before {
+  width: 70px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header:after,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header:after {
+  width: 68px;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .lead-article,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article {
+  max-width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .lead-article .text-holder,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
+  height: auto;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
+  padding-left: 60px;
+  padding-right: 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box {
+  display: block;
+  padding: 20px 0;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder {
+  min-height: 122px;
+  max-width: 216px;
+  background: #bbbfc0 url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img {
+  display: none;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info {
+  display: flex;
+}
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder h2,
+body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder h2 {
+  margin: 0;
 }
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .text-holder {
   position: relative !important;
@@ -178,254 +426,6 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .container-adzone h4 {
   line-height: 1.1;
   letter-spacing: normal;
   width: auto;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view {
-  margin: 0;
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view div[data-bind*="with"] {
-  width: 100%;
-  padding-left: 20px;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view .row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article {
-  width: 33.3333%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article.container-adzone {
-  display: block;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view .grid-article.home-video-article {
-  max-width: 100%;
-  margin: 0;
-  padding: 20px 0;
-  display: flex;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .list-view {
-  margin: 0;
-  width: 100%;
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .lead-article {
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .lead-article .text-holder {
-  height: auto;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .article-view .article-content .content {
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .adtype-tagbox,
-body.cmsadmin.hvg-mobile-admin-ad .adtype-tematic {
-  margin: 0;
-  max-width: 100%;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad textarea.form-control {
-  resize: both;
-  min-height: 150px;
-  min-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article {
-  display: flex;
-  margin: 20px 0;
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article .text-holder {
-  padding: 60px 30px 30px;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .lead-article .text-holder .text {
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout.adzones .hvg .scroller .container-adzone {
-  display: inline-block;
-  margin: 5px 0 !important;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout > .container > h1 {
-  max-width: 768px;
-  margin: 0 auto;
-  padding-left: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body .container-adzone {
-  width: 100%;
-  margin: 20px 0 !important;
-  max-width: 768px;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller {
-  min-width: 768px;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(1, transparent));
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .text {
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder .info {
-  color: #fff;
-  padding: 0 0 10px 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article a {
-  color: #fff;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h1 + p,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article h2 + p {
-  color: #fff;
-  margin-bottom: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article {
-  width: 33.3333%;
-  border: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article.container-adzone {
-  width: 100%;
-  margin: 10px 0 !important;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article .text-holder .info {
-  display: flex;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view .grid-article.full-image-article-box {
-  display: block;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .adtype-tagbox,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .adtype-tematic {
-  max-width: 100%;
-  margin: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .list-view {
-  max-width: 100%;
-  margin: 0;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list {
-  margin-top: 60px;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
-  padding: 20px;
-  margin: 0;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .info {
-  padding-left: 0;
-  padding-top: 22px;
-}
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
-  padding-left: 60px;
-  padding-right: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad,
-body.cmsadmin.hvg-mobile-admin-page-layout {
-  background: #fff;
-}
-@media (min-width: 1300px) {
-  body.cmsadmin.hvg-mobile-admin-ad > .container,
-  body.cmsadmin.hvg-mobile-admin-page-layout > .container {
-    margin: 0 auto;
-    width: 800px;
-  }
-}
-body.cmsadmin.hvg-mobile-admin-ad > .container > h1,
-body.cmsadmin.hvg-mobile-admin-page-layout > .container > h1 {
-  max-width: 100%;
-  margin: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .body,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body {
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .body div[data-bind*="with"],
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .body div[data-bind*="with"] {
-  max-width: 768px;
-  margin: 10px 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .wrap,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .wrap {
-  padding-top: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .block-title,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .block-title {
-  float: left;
-  width: 100%;
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .block-title a,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .block-title a {
-  color: #fff;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .boxheader:not(.blog-header),
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .boxheader:not(.blog-header) {
-  margin: 0;
-  max-width: 100%;
-  padding: 10px 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header {
-  margin: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header:before,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header:before {
-  width: 70px;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .boxheader.blog-header:after,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .boxheader.blog-header:after {
-  width: 68px;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .lead-article,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article {
-  max-width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .lead-article .text-holder,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .lead-article .text-holder {
-  height: auto;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list {
-  margin: 0;
-  max-width: 100%;
-  padding: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list {
-  padding: 20px;
-  margin: 0;
-  width: 100%;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller .grid-view-latest-news-list .list-article .latest-list .text-holder {
-  padding-left: 60px;
-  padding-right: 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box {
-  display: block;
-  padding: 20px 0;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder {
-  min-height: 122px;
-  max-width: 216px;
-  background: #bbbfc0 url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .image-holder img {
-  display: none;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder .info {
-  display: flex;
-}
-body.cmsadmin.hvg-mobile-admin-ad .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder h2,
-body.cmsadmin.hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder h2 {
-  margin: 0;
 }
 /* pt doboz admin */
 .hvg .block-ms-box2 {
