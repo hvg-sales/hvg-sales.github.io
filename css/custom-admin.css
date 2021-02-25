@@ -439,6 +439,9 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-jumbo-article-list-b
   max-width: 50%;
   margin-bottom: 30px;
 }
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-green-article-list-box .descriptoroverlay {
+  max-width: 1068px !important;
+}
 /* pt doboz admin */
 .hvg .block-ms-box2 {
   padding: 0px 15px 20px 15px;
