@@ -161,8 +161,11 @@ body.cmsadmin .hvg .body .blog-icon:before {
   font-weight: normal;
   font-family: 'PT sans';
 }
-body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .hvg360-pagelayout ol li,
-body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .hvg360-pagelayout ul li {
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .text-holder {
+  position: relative;
+}
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout ol li,
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout ul li {
   font-size: inherit;
   line-height: inherit;
 }
