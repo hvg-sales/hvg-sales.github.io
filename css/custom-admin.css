@@ -82,13 +82,18 @@ body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper a:focus {
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .selectAdv .container-adzone {
   max-width: 1180px !important;
-  margin: 10px auto 0;
+  margin: 20px auto 0;
   margin-bottom: 10px !important;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-below-header,
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.ad-above-header {
   max-width: 1180px !important;
   margin: 10px auto !important;
+}
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-adtype-interstellar,
+body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .container-adzone.admin-google-adsense-1 {
+  max-width: 1180px !important;
+  margin: 20px auto;
 }
 body.cmsadmin .hvg .body .perspective-wrapper .container .wrapper .site-header-main .logo-holder .logo {
   background: transparent url(https://static.hvgrt.hu/img/hvg-hu-logo.svg) center center no-repeat !important;
