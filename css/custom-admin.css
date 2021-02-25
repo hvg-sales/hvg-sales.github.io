@@ -431,6 +431,9 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .container-adzone h4 {
   letter-spacing: normal;
   width: auto;
 }
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout.hvg360-home .descriptoroverlay {
+  max-width: 1140px !important;
+}
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-jumbo-article-list-box-1 .jumbo-article-list-box .container-droppzone-flagged > div:first-child {
   flex: 0 0 50%;
   max-width: 50%;
