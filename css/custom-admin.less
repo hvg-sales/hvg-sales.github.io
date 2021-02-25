@@ -461,6 +461,10 @@ body {
 body {
     &.cmsadmin {
         &.hvg-360 {
+            > .container {
+                width: 1170px;
+                margin: 30px auto 0;
+            }
             .hvg {
                 .body {
                     .hvg360-pagelayout {
@@ -481,6 +485,18 @@ body {
                                 line-height: 1.1;
                                 letter-spacing: normal;
                                 width: auto;
+                            }
+                        }
+                        // home >> page-layout
+                        #hvg360-jumbo-article-list-box-1 {
+                            .jumbo-article-list-box {
+                                .container-droppzone-flagged {
+                                    > div:first-child {
+                                        flex: 0 0 50%;
+                                        max-width: 50%;
+                                        margin-bottom: 30px;
+                                    }
+                                }
                             }
                         }
                     }

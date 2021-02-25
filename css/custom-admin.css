@@ -409,6 +409,10 @@ body.cmsadmin:not(.hvg-360).hvg-mobile-admin-ad .hvg .scroller #blogCageLead .gr
 body.cmsadmin:not(.hvg-360).hvg-mobile-admin-page-layout .hvg .scroller #blogCageLead .grid-article.full-image-article-box .text-holder h2 {
   margin: 0;
 }
+body.cmsadmin.hvg-360 > .container {
+  width: 1170px;
+  margin: 30px auto 0;
+}
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .text-holder {
   position: relative !important;
 }
@@ -426,6 +430,11 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .container-adzone h4 {
   line-height: 1.1;
   letter-spacing: normal;
   width: auto;
+}
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-jumbo-article-list-box-1 .jumbo-article-list-box .container-droppzone-flagged > div:first-child {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
 }
 /* pt doboz admin */
 .hvg .block-ms-box2 {
