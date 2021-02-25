@@ -176,7 +176,11 @@ body {
                 .body {
                     .hvg360-pagelayout {
                         .lead-article .text-holder {
-                            position: relative;
+                            position: relative !important;
+                        }
+                        .jumbo-article-list-box .cut-corner-top-left:before,
+                        .green-article-list-box .green-box:before {
+                            display: none !important;
                         }
                         ol li, ul li {
                             font-size: inherit;
