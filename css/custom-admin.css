@@ -442,6 +442,9 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-jumbo-article-list-b
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-green-article-list-box .descriptoroverlay {
   max-width: 1068px !important;
 }
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-column-article-list-box-1 .container-droppzone-flagged > div:nth-child(n+3) .descriptoroverlay {
+  width: 360px;
+}
 /* pt doboz admin */
 .hvg .block-ms-box2 {
   padding: 0px 15px 20px 15px;
