@@ -12324,3 +12324,21 @@
 .newspapers .list > .row > div > .row > div {
   margin-bottom: 35px;
 }
+.newspapers .list > .row > div > .row > div .image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 3px solid hsla(0, 0%, 100%, 0.9);
+  z-index: 50;
+}
+.newspapers .list > .row > div > .row > div .image img {
+  width: 100%;
+  height: auto;
+}
+.newspapers .list > .row > div > .row > div .caption p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #6f6f6f;
+  margin: 0;
+  padding: 2px 5px;
+}
