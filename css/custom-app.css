@@ -10,4 +10,7 @@
     color: #888 !important;
     text-transform: uppercase;
   }
+  body.read-mode .article-vote .vote-title {
+    color: #ffffff;
+  }
 }
