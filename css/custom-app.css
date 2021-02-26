@@ -11,6 +11,27 @@
     text-transform: uppercase;
   }
   .read-mode .article-vote .vote-title {
-    color: #ffffff;
+    color: #eaeaea;
+  }
+  .read-mode .article-vote .L-radio .text {
+    color: #eaeaea;
+  }
+  .read-mode .article-vote .vote-form .L-button {
+    background: #f60;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+  }
+  .read-mode .article-vote .vote-options .percent {
+    color: #a1a1a1;
+  }
+  .read-mode .article-vote .result-chart {
+    background: #333333;
+  }
+  .read-mode .article-vote .result-chart .line {
+    background: #909090;
+  }
+  .read-mode .article-vote .result-chart.longest .line {
+    background: #e25900;
   }
 }

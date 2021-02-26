@@ -15,7 +15,33 @@ only screen and (min-resolution: 2dppx) {
         color: #888 !important;
         text-transform: uppercase;
     }
-    .read-mode .article-vote .vote-title {
-        color: #ffffff;
+    .read-mode {
+        .article-vote {
+            .vote-title {
+                color:#eaeaea;
+            }
+            .L-radio .text {
+                color:#eaeaea;
+            }
+            .vote-form .L-button {
+                background: #f60;
+                color: #fff;
+                border: 0;
+                box-shadow: none;
+            }
+            .vote-options .percent {
+                color: #a1a1a1;
+            }
+            .result-chart {
+                background: #333333;
+                .line {
+                    background: #909090;
+                }
+                &.longest .line {
+                    background: #e25900;
+                }
+            }
+        }
     }
+
 }
