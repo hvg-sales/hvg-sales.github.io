@@ -454,7 +454,7 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-green-article-list-b
   max-width: 1068px !important;
 }
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-column-article-list-box-1 .container-droppzone-flagged > div:nth-child(n+3) .descriptoroverlay {
-  width: 360px;
+  width: 360px !important;
 }
 /* pt doboz admin */
 .hvg .block-ms-box2 {
