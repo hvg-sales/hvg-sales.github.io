@@ -413,6 +413,9 @@ body.cmsadmin.hvg-360 > .container {
   width: 1170px;
   margin: 30px auto 0;
 }
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout a {
+  color: #000;
+}
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .articleitem {
   display: flex;
 }
