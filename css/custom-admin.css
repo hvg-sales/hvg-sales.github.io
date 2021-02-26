@@ -415,6 +415,14 @@ body.cmsadmin.hvg-360 > .container {
 }
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .text-holder {
   position: relative !important;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  order: 1;
+}
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .lead-article .image-holder {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  order: 2;
 }
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .jumbo-article-list-box .cut-corner-top-left:before,
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .green-article-list-box .green-box:before {
