@@ -12133,76 +12133,76 @@
   }
 }
 @media (max-width: 767px) {
-  .hvg360-custom .portrait[data-v-700b1778] {
+  .hvg360-custom .portrait {
     max-height: 300px !important;
   }
 }
-.hvg360-custom .banner-zone .banner-zone-container .goa-embedded[data-v-506a1f78] {
+.hvg360-custom .banner-zone .banner-zone-container .goa-embedded {
   text-align: center;
 }
-.hvg360-custom .banner-zone .banner-zone-container .caption[data-v-506a1f78] {
+.hvg360-custom .banner-zone .banner-zone-container .caption {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #6f6f6f;
   font-size: 10px;
 }
-.hvg360-custom .banner-zone .banner-zone-container .cont[data-v-506a1f78] {
+.hvg360-custom .banner-zone .banner-zone-container .cont {
   width: 100%;
   height: auto;
   margin: 0 auto;
   overflow: hidden;
 }
-.hvg360-custom .banner-zone .banner-zone-container .cont a[data-v-506a1f78] {
+.hvg360-custom .banner-zone .banner-zone-container .cont a {
   text-decoration: none;
 }
-.hvg360-custom .banner-zone .banner-zone-container .cont a img[data-v-506a1f78] {
+.hvg360-custom .banner-zone .banner-zone-container .cont a img {
   width: 100%;
   height: auto;
 }
-.hvg360-custom .banner-zone.banner-970x90 .banner-zone-container .cont[data-v-506a1f78],
-.hvg360-custom .banner-zone.banner-970x90 .banner-zone-container .cont a img[data-v-506a1f78],
-.hvg360-custom .banner-zone.banner-970x250 .banner-zone-container .cont[data-v-506a1f78],
-.hvg360-custom .banner-zone.banner-970x250 .banner-zone-container .cont a img[data-v-506a1f78] {
+.hvg360-custom .banner-zone.banner-970x90 .banner-zone-container .cont,
+.hvg360-custom .banner-zone.banner-970x90 .banner-zone-container .cont a img,
+.hvg360-custom .banner-zone.banner-970x250 .banner-zone-container .cont,
+.hvg360-custom .banner-zone.banner-970x250 .banner-zone-container .cont a img {
   max-width: 970px;
 }
-.hvg360-custom .banner-zone.banner-300x250 .banner-zone-container .cont[data-v-506a1f78],
-.hvg360-custom .banner-zone.banner-300x250 .banner-zone-container .cont a img[data-v-506a1f78] {
+.hvg360-custom .banner-zone.banner-300x250 .banner-zone-container .cont,
+.hvg360-custom .banner-zone.banner-300x250 .banner-zone-container .cont a img {
   max-width: 300px;
 }
 @media (max-width: 767px) {
-  .hvg360-custom .banner-zone.normal[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.normal {
     margin-bottom: 2rem;
   }
-  .hvg360-custom .banner-zone.after-lead-image .banner-zone-container[data-v-506a1f78],
-  .hvg360-custom .banner-zone.in-article-body .banner-zone-container[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.after-lead-image .banner-zone-container,
+  .hvg360-custom .banner-zone.in-article-body .banner-zone-container {
     padding: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  .hvg360-custom .banner-zone.normal[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.normal {
     margin-bottom: 3rem;
   }
-  .hvg360-custom .banner-zone.in-article-body .banner-zone-container[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.in-article-body .banner-zone-container {
     margin: 0;
   }
 }
 @media (min-width: 1200px) {
-  .hvg360-custom .banner-zone.normal[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.normal {
     max-width: 988px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
   }
-  .hvg360-custom .banner-zone.in-article-list-box[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.in-article-list-box {
     height: 100%;
   }
-  .hvg360-custom .banner-zone.in-article-list-box .banner-zone-container[data-v-506a1f78] {
+  .hvg360-custom .banner-zone.in-article-list-box .banner-zone-container {
     height: 100%;
     padding: 117px 0;
   }
 }
-.hvg360-custom .tag[data-v-94fa651a] {
+.hvg360-custom .tag {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -12211,32 +12211,32 @@
   text-align: center;
   border-style: solid;
 }
-.hvg360-custom .tag.tag-small[data-v-94fa651a] {
+.hvg360-custom .tag.tag-small {
   border-width: 2px;
   padding: 5px 12px 3px 8px;
   font-size: 12px;
   letter-spacing: 0.3px;
   border-top-right-radius: 12px;
 }
-.hvg360-custom .tag.tag-big[data-v-94fa651a] {
+.hvg360-custom .tag.tag-big {
   border-width: 3px;
   padding: 10px 16px 8px;
   font-size: 16px;
   letter-spacing: 0.5px;
   border-top-right-radius: 14px;
 }
-.hvg360-custom .tag.tag-inactive[data-v-94fa651a] {
+.hvg360-custom .tag.tag-inactive {
   color: #51af96;
   border-color: #51af96;
 }
-.hvg360-custom .tag.tag-active[data-v-94fa651a],
-.hvg360-custom .tag[data-v-94fa651a]:active,
-.hvg360-custom .tag[data-v-94fa651a]:focus {
+.hvg360-custom .tag.tag-active,
+.hvg360-custom .tag:active,
+.hvg360-custom .tag:focus {
   color: #000;
   background: #75d1b7;
   border-color: #75d1b7;
 }
-.hvg360-custom .tag.tag-style-hvg-orange[data-v-94fa651a] {
+.hvg360-custom .tag.tag-style-hvg-orange {
   background-color: #e25a00 !important;
   border-color: #e25a00 !important;
   color: #fff;
@@ -12280,38 +12280,38 @@
 .hvg360-custom .fs-20 {
   font-size: 20px !important;
 }
-.hvg360-custom .section-separator[data-v-12e2e9b6] {
+.hvg360-custom .section-separator {
   display: inline-block;
   background: transparent url(https://hvg.hu/360/images/content-separator.svg) no-repeat 0 0;
   width: 208px;
   height: 32px;
 }
-.hvg360-custom .footer[data-v-7578dd50] {
+.hvg360-custom .footer {
   background-color: #75d1b7;
 }
-.hvg360-custom .footer .logo[data-v-7578dd50] {
+.hvg360-custom .footer .logo {
   width: 217px;
   height: 44px;
   -o-object-fit: contain;
   object-fit: contain;
 }
-.hvg360-custom .footer .socials[data-v-7578dd50] {
+.hvg360-custom .footer .socials {
   padding-top: 8px;
 }
-.hvg360-custom .footer .links[data-v-7578dd50] {
+.hvg360-custom .footer .links {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
 }
-.hvg360-custom .footer .links .link[data-v-7578dd50] {
+.hvg360-custom .footer .links .link {
   text-decoration: none;
   color: #03100d;
   font-weight: 500;
 }
-.hvg360-custom .footer .col-auto[data-v-7578dd50] {
+.hvg360-custom .footer .col-auto {
   padding: 0 10px;
 }
-.hvg360-custom .footer .version[data-v-7578dd50] {
+.hvg360-custom .footer .version {
   opacity: 0.58;
 }
 .newspapers > .inner {
