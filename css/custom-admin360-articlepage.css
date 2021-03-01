@@ -12314,6 +12314,9 @@
 .hvg360-custom .footer .version[data-v-7578dd50] {
   opacity: 0.58;
 }
+.newspapers > .inner {
+  padding: 56px 56px 0;
+}
 .newspapers h1 {
   font-size: 112px;
   line-height: 90px;
