@@ -532,8 +532,19 @@ body {
                                 }
                             }
                         }
-                        .weekly-recommendation .cont {
-                            padding: 32px 24px 45px;
+                        .weekly-recommendation {
+                            .cont {
+                                padding: 32px 24px 45px;
+                                .inner ._container-placeholder > .content {
+                                    position: absolute;
+                                    width: 100%;
+                                    left: 0;
+                                    bottom: 35px;
+                                    right: 0;
+                                    padding: 0;
+                                    overflow: hidden;
+                                }
+                            }
                         }
                     }
                 }

@@ -462,6 +462,15 @@ body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout #hvg360-column-article-list-
 body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont {
   padding: 32px 24px 45px;
 }
+body.cmsadmin.hvg-360 .hvg .body .hvg360-pagelayout .weekly-recommendation .cont .inner ._container-placeholder > .content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 35px;
+  right: 0;
+  padding: 0;
+  overflow: hidden;
+}
 /* pt doboz admin */
 .hvg .block-ms-box2 {
   padding: 0px 15px 20px 15px;
