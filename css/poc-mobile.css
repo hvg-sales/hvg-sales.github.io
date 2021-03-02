@@ -35,11 +35,13 @@
   width: auto;
   height: 50px;
   background: transparent;
-  position: relative;
   z-index: 2;
-  display: flex;
+  display: block;
   margin-bottom: 0;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .ad-poc-logo img {
   width: auto;
@@ -57,9 +59,8 @@
   width: 100%;
   position: relative;
   z-index: 4;
-  /* padding-bottom: 56.25%;*/
   height: 0;
-  /*background-color: #6f6d6d;*/
+  margin-top: 50px;
 }
 .ad-poc-bg {
   /* 768x768*/
