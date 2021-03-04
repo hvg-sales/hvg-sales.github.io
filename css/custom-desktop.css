@@ -247,10 +247,10 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-505 .boxheader:first-of-
   border-bottom: 1px solid #444;
 }
 .cimlap-grid .dark .boxheader .info:hover {
-  color: #eaeaea;
+  color: #eaeaea !important;
 }
 .cimlap-grid .dark .boxheader .info:hover:after {
-  filter: brightness(4);
+  filter: brightness(4) !important;
 }
 .cimlap-grid.cimlap-grid-blog .cimlap-grid-elem.elem-580 .cimlap-big_square_article .content {
   height: 100%;
