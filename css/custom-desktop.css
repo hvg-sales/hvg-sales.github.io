@@ -231,6 +231,10 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-505 .boxheader:first-of-
 }
 body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .boxheader {
   background: #333333;
+  border-top: none;
+}
+body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .boxheader .topborder {
+  border-top: 0 !important;
 }
 body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .boxheader:before {
   background: #1a1a1a;
