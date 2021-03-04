@@ -229,6 +229,9 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-505 .boxheader:first-of-
   border-bottom: 1px solid #e4e4e4;
   padding: 20px 0;
 }
+body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .boxheader {
+  background: #333333;
+}
 body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .boxheader:before {
   background: #1a1a1a;
 }
@@ -236,7 +239,7 @@ body.settings-sepia .cimlap-grid .cimlap-grid-elem.elem-380 .boxheader-nyuzsi .b
   bottom: 6px;
   right: 6px;
   border: 15px solid transparent;
-  border-bottom: 15px solid #c3c3c3;
+  border-bottom: 15px solid #0a0a0a;
 }
 .cimlap-grid .cimlap-grid-elem.elem-380 .articlebox .more {
   margin-top: 40px;
