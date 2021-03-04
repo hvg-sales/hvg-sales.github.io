@@ -276,6 +276,14 @@ body:not(.main-page) {
 		.cimlap-grid-elem .boxheader:first-of-type {
 			border-bottom: 1px solid #444;
 		}
+        .boxheader .info {
+            &:hover {
+                color: #eaeaea;
+                &:after {
+                    filter: brightness(4);
+                }
+            }
+        }
 	}
 
     &.cimlap-grid-blog {
