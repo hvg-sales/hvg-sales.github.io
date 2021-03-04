@@ -23,13 +23,7 @@
   flex-direction: column;
   z-index: 2;
   padding: 0 20px;
-  padding-bottom: 100%;
-}
-@media screen and (max-width: 320px) {
-  .ad-poc-content {
-    padding: 0 25px;
-    padding-bottom: 100%;
-  }
+  padding-bottom: 150%;
 }
 .ad-poc-logo {
   width: auto;
@@ -37,11 +31,8 @@
   background: transparent;
   z-index: 2;
   display: block;
-  margin-bottom: 0;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 20px;
+  position: relative;
 }
 .ad-poc-logo img {
   width: auto;
@@ -51,8 +42,7 @@
 }
 @media screen and (min-width: 768px) {
   .ad-poc-logo {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 20px;
   }
 }
 .ad-poc-video {
@@ -60,7 +50,7 @@
   position: relative;
   z-index: 4;
   height: 0;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .ad-poc-bg {
   /* 768x768*/
