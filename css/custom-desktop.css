@@ -37,6 +37,10 @@
 .article-content a.caption {
   background: none;
 }
+.article-content q,
+.article-content blockquote {
+  margin-top: 30px;
+}
 body:not(.main-page) section.cimlap-dhvg {
   display: none !important;
 }
