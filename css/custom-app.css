@@ -37,4 +37,8 @@
   .read-mode .embedly-card .embedly-card-hug {
     background: #eaeaea;
   }
+  .read-mode q p,
+  .read-mode blockquote p {
+    color: #d4d4d4;
+  }
 }
