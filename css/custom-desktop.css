@@ -541,7 +541,7 @@ body.settings-sepia .article-content .embed-container {
   background-color: transparent;
 }
 body.settings-sepia .article-content .embed-container .embedly-card {
-  background-color: #f4f4f4;
+  background: #1a1a1a;
 }
 body.settings-sepia .article-content .embed-container blockquote,
 body.settings-sepia .article-content .embed-container .blockquote {
