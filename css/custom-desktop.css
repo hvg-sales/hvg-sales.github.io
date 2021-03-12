@@ -543,9 +543,9 @@ body.settings-sepia .article-content .embed-container {
 body.settings-sepia .article-content .embed-container .embedly-card {
   background-color: #f4f4f4;
 }
-body.settings-sepia .article-content .embed-container blockquote,
-body.settings-sepia .article-content .embed-container .blockquote {
-  background: #1a1a1a;
+body.settings-sepia .article-content .embed-container blockquote.embedly-card,
+body.settings-sepia .article-content .embed-container .blockquote.embedly-card {
+  background-color: #1a1a1a;
 }
 body.settings-sepia .article-content .article-otherelements-container .articlelist-element.switch-article {
   background: #1a1a1a;
