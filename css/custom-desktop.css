@@ -537,6 +537,10 @@ body.settings-sepia .hvg-aszf-content .aszf-scroll-to-top-right {
 body.settings-sepia .article-content .article-vote {
   background: #111111;
 }
+body.settings-sepia .article-content .embed-container blockquote,
+body.settings-sepia .article-content .embed-container .blockquote {
+  background: #1a1a1a;
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (orientation: portrait) {
   .site-header-nav .nav-categories .category-button {
     padding: 5px 4px;
